@@ -1,0 +1,40 @@
+{
+  inputs,
+  pkgs,
+  self,
+  config,
+  ...
+}: {
+  home.packages = with pkgs; [
+    anki
+    alacritty
+    alejandra
+    bat
+    brightnessctl
+    cached-nix-shell
+    exa
+    fd
+    fish
+    keepassxc
+    librewolf
+    tor-browser-bundle-bin
+    xplr # maybe joshuto? 
+    starship
+    signal-desktop
+    swaylock
+    skim
+    slurp
+    ripgrep
+    git
+    libnotify
+    wf-recorder
+    wlsunset
+    wl-clipboard
+    newsboat
+    mpv
+    obsidian
+    pamixer
+    zathura
+    zoxide
+  ];
+}
